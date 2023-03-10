@@ -49,7 +49,7 @@ jobs:
       - name: Build and Test
         uses: ros-tooling/action-ros-ci@v0.3
         with:
-          package-name: farc_drone
+          package-name: farc_manipulator
           target-ros1-distro: ${{ matrix.ros_distribution }}
           import-token: ${{ secrets.GITHUB_TOKEN }}
           vcs-repo-file-url: ""
